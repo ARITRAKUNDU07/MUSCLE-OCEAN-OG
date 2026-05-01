@@ -3,6 +3,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import UserLoginClient from '@/components/UserLoginClient';
 
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
   return (
     <>

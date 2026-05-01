@@ -3,6 +3,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ReviewForm from './ReviewForm';
 
+export const dynamic = 'force-dynamic';
+
 export default async function ReviewsPage() {
   const supabase = await createClient();
   const { data: reviews } = await supabase
